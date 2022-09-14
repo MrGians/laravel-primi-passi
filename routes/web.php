@@ -15,4 +15,9 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('home', ['hello' => 'Hello World!']);
-});
+})->name('home');
+
+Route::get('/subpage', function () {
+    return view('subpage.subhome', ['subtext' => 'Sub-page Hello World!']);
+})->name('subpage');
+

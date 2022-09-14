@@ -7,7 +7,7 @@
   <title>Laravel primi passi</title>
 </head>
 <body>
-  <h1>{{$hello}}</h1>
-  <a href="{{route('subpage')}}">Vai alla Subpage</a>
+  <h1>{{$subtext}}</h1>
+  <a href="{{route('home')}}">Torna alla Home</a>
 </body>
 </html>
